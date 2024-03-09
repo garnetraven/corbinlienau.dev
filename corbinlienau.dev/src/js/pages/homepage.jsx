@@ -1,16 +1,17 @@
 import React from "react";
 
 import Footer from "../components/footer"
+import Navbar from "../components/navbar";
 
 const Homepage = () => {
 
   return (
     <div>
-      <div>
-        <h1>title</h1>
+      <div className="page-navbar">
+        <Navbar />
       </div>
       <div className="page-footer">
-	<Footer />
+	      <Footer />
       </div>
     </div>
   );

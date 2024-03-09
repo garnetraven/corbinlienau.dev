@@ -2,13 +2,14 @@
 	display: flex;
 	padding-top: 25px;
 	margin-top: 50px;
+	margin-left: 20%;
 	padding-bottom: 25px;
 	align-items: center;
 }
 
 .footer-links,
 .footer-credits {
-	flex-basis: 50%;
+	flex-basis: 25%;
 }
 
 .footer-links {
@@ -29,16 +30,16 @@
 
 .footer-nav-link-list a {
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: #b5e853;
 }
 
 .footer-nav-link-list a:hover {
-	color: var(--link-color);
+	color: #63c0f5;
 }
 
 .footer-credits-text {
 	justify-content: flex-end;
-	color: var(--tertiary-color);
+	color: #b5e853;
 	font-size: 14px;
 	text-align: right;
 }

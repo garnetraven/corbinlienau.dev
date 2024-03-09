@@ -10,7 +10,7 @@ const navbar = (props) => {
 			<div className="nav-container">
         <div className="navbar">
 					<div className="navbar">
-						<div className="navbar-background">
+						<div className="nav-background">
 								<ul className="nav-list">
 									<li className={active === "home" ? "nav-item active" : "nav-item"}>
 											<Link to="/">Home</Link>

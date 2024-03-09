@@ -1,12 +1,51 @@
+@import "../css/data/styles.css";
+
+.App {
+  font: var(--primary-font);
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: auto; /* Push content to the top */
+}
+
+.title {
+  color: var(--primary-color);
+}
+
 /* Sticky Footer Technique */
 .page-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #151515;
+  background-color: var(--background-color);
   position: relative;
 }
+
+.page-content:before,
+.page-content:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc((100% - 1200px) / 2);
+    background-color: var(--background-color);
+}
+
+.page-content:before {
+    left: 0;
+    border-right: none; /* Remove the right border on the left pseudo-element */
+    z-index: 1;
+}
+
+.page-content:after {
+    right: 0;
+    border-left: none; /* Remove the left border on the right pseudo-element */
+    z-index: 1;
+}
+
 
 .page-footer {
   position: relative;

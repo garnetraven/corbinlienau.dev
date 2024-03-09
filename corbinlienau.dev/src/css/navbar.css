@@ -1,3 +1,5 @@
+@import "../css/data/styles.css";
+
 .nav-container {
 	margin: 0;
 	display: flex;

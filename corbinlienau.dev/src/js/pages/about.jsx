@@ -10,9 +10,11 @@ const About = () => {
   return (
     <div className="page-content">
       <Navbar active="about"/>
-      <div className="about-container">
-        <div className="page-footer">
-          <Footer />
+      <div className="content-wrapper">
+        <div className="about-container">
+          <div className="page-footer">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>

@@ -1,15 +1,16 @@
+@import "../css/data/styles.css";
+
 .footer {
 	display: flex;
 	padding-top: 25px;
 	margin-top: 50px;
-	margin-left: 20%;
 	padding-bottom: 25px;
 	align-items: center;
 }
 
 .footer-links,
 .footer-credits {
-	flex-basis: 25%;
+	flex-basis: 80%;
 }
 
 .footer-links {

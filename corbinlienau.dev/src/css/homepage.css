@@ -1,0 +1,9 @@
+@import "../css/data/styles.css";
+
+.homepage-container {
+  padding-top: 155px;
+}
+
+.homepage-title {
+	width: 85% !important;
+}

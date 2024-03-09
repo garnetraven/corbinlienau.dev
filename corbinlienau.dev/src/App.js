@@ -6,6 +6,7 @@ import Contact from "./js/pages/contact";
 import Projects from "./js/pages/projects";
 import Notfound from "./js/pages/404";
 
+import './css/fonts.css';
 import './css/App.css';
 
 function App() {

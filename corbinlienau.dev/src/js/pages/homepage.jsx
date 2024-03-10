@@ -19,7 +19,7 @@ const Homepage = () => {
               {INFO.homepage.title}
             </div>
             <div className="subtitle homepage-subtitle">
-            
+              {INFO.homepage.description}
             </div>
           </div>
           <div className="homepage-socials">

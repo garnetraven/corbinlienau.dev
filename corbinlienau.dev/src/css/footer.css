@@ -10,11 +10,11 @@
 
 .footer-links,
 .footer-credits {
-	flex-basis: 80%;
+	flex-basis: 200%;
 }
 
 .footer-links {
-	margin-left: -40px;
+	margin-left: -40px; 
 }
 
 .footer-nav-link-list {
@@ -31,16 +31,16 @@
 
 .footer-nav-link-list a {
 	text-decoration: none;
-	color: #b5e853;
+	color: var(--secondary-color);
 }
 
 .footer-nav-link-list a:hover {
-	color: #63c0f5;
+	color: var(--link-color);
 }
 
 .footer-credits-text {
 	justify-content: flex-end;
-	color: #b5e853;
+	color: var(--secondary-color);
 	font-size: 14px;
 	text-align: right;
 }

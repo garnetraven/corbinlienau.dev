@@ -4,6 +4,30 @@
   padding-top: 155px;
 }
 
+.homepage-intro {
+  content: "";
+  display: block;
+  width: 65%;
+}
+
 .homepage-title {
 	width: 85% !important;
+}
+
+.homepage-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.homepage-social-icon {
+	padding-right: 20px;
+	font-size: 40px;
+	transition: color 0.2s ease-in-out;
+	color: var(--primary-color);
+}
+
+.homepage-social-icon:hover {
+	color: var(--secondary-color);
 }

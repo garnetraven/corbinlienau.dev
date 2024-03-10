@@ -13,11 +13,13 @@
 .title {
   color: var(--primary-color);
   font-size: 36px;
+  font-weight: bold;
 }
 
 .subtitle {
-  color: var(--secondary-color);
-  font-size: 18px;
+  color: var(--primary-color);
+  font-size: 19px;
+  padding-top: 15px;
 }
 
 /* Sticky Footer Technique */

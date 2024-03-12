@@ -59,3 +59,11 @@
   position: relative;
   margin-top: auto;
 }
+
+.page-footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px solid var(--secondary-color);
+}

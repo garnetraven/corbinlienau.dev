@@ -36,7 +36,7 @@
 	content: "";
 	display: block;
 	padding-top: 20px;
-	border-top: 3px solid var(--primary-color);
+	border-top: 3px solid #202020;
 	margin-top: 20px;
 }
 

@@ -1,5 +1,36 @@
 @import "../css/data/styles.css";
 
 .about-container {
-  padding-top: 155px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.about-content {
+	display: flex;
+}
+
+.about-left-side {
+	flex-basis: 900px;
+}
+
+.about-title {
+	width: 100% !important;
+}
+
+.about-subtitle {
+	width: 80% !important;
+}
+
+.about-right-side {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+}
+
+.about-socials {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }

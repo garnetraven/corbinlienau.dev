@@ -54,10 +54,9 @@
     z-index: 1;
 }
 
-
 .page-footer {
   position: relative;
-  margin-top: auto;
+  margin-top: 10%;
 }
 
 .page-footer::before {

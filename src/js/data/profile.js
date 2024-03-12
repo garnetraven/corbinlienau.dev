@@ -16,7 +16,7 @@ const INFO = {
   },
 
   about: {
-    title:"I'm Corbin Lienau. I find great joy in witnessing the concepts in my mind materialize through the code I create.",
+    title:"I'm Corbin Lienau. Coding brings my ideas to life, and I love it.",
     description:"As a software engineer currently enrolled in the Software Engineering program at Arizona State University, my drive stems from crafting practical solutions with my code. While I have a particular affinity for backend systems and high-performance hardware solutions, I'm eager to embrace any opportunity that comes my way. My enthusiasm for software engineering is rooted in the ability to translate my conceptualizations into tangible results through coding. My aspiration is to delve deeper into this field, leveraging my skills to enhance people's lives through innovative software solutions.",
   },
 };

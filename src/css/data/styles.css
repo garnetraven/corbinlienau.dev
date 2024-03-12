@@ -1,9 +1,12 @@
 :root {
 	/* ------- colors ------- */
-  --primary-color: #d0d0d0;
-  --secondary-color: #b5e853;
-  --background-color: #151515;
-	--link-color: #63c0f5;
+  --primary-color: #F5F5F5;
+  --secondary-color: #019E36;
+	--tertiary-color: #185B33;
+	--quaternary-color: #A3A2A4;
+	--quinary-color: #7B7B83;
+  --background-color: #020404;
+	--link-color: #00FA55;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */

@@ -2,6 +2,7 @@ import { React } from "react";
 
 import Footer from "../components/footer"
 import Navbar from "../components/navbar";
+import Socials from "../components/socials";
 
 import INFO from "../data/profile";
 
@@ -35,7 +36,7 @@ const Contact = () => {
 
             <div className="socials-container">
               <div className="contact-socials">
-              {/*  <Socials /> */}
+                <Socials />
               </div>
             </div>
 

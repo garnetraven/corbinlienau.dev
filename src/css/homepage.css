@@ -12,6 +12,13 @@
 
 .homepage-title {
 	width: 85% !important;
+	font: var(--primary-font) !important;
+	font-size: 48px !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+	font: var(--primary-font) !important;
 }
 
 .homepage-socials {

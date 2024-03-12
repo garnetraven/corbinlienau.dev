@@ -30,7 +30,7 @@ const Contact = () => {
 							>
 								{INFO.socials.linkedin}
 							</a>
-              . Once again, thank you for your interest, and I anticipate hearing from yousoon!
+              . Once again, thank you for your interest, and I anticipate hearing from you soon!
             </div>
 
             <div className="socials-container">

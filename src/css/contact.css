@@ -1,3 +1,11 @@
+@import "./data/styles.css";
+
+a {
+	color: var(--link-color);
+}
+.contact-title {
+
+}
 .contact-subtitle {
   width: 100% !important;
 }

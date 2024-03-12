@@ -3,11 +3,14 @@
 a {
 	color: var(--link-color);
 }
-.contact-title {
 
+.contact-title {
+	font: var(--primary-font);
 }
+
 .contact-subtitle {
   width: 100% !important;
+	font: var(--primary-font);
 }
 
 .contact-container {

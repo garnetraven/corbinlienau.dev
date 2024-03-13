@@ -8,13 +8,18 @@ import Socials from "../components/socials";
 import "../../css/about.css";
 
 import INFO from "../data/profile";
+import SEO from "../data/seo";
 
 const About = () => {
+
+  const currentSEO = SEO.find((item) => item.page === "about");
 
   return (
     <React.Fragment>
       <Helmet>
         <title>{`About | ${INFO.primary.title}`}</title>
+        <meta name="description" content={currentSEO.description} />
+        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Helmet>
       <div className="page-content">
         <Navbar active="about"/>

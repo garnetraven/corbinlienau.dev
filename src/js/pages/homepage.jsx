@@ -14,15 +14,23 @@ import {
 
 
 import INFO from "../data/profile"
+import SEO from "../data/seo";
 
 import "../../css/homepage.css";
 
 const Homepage = () => {
 
+  const currentSEO = SEO.find((item) => item.page === "homepage");
+
   return (
     <React.Fragment>
       <Helmet>
         <title>{`${INFO.primary.title}`}</title>
+        <meta name="description" content={currentSEO.description} />
+				<meta
+					name="keywords"
+					content={currentSEO.keywords.join(", ")}
+				/>
       </Helmet>
       <div className="page-content">
         <Navbar active="home"/>

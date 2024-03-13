@@ -7,15 +7,20 @@ import MainProjects from "../components/mainprojects";
 import SideProjects from "../components/sideprojects";
 
 import INFO from "../data/profile";
+import SEO from "../data/seo";
 
 import "../../css/projects.css";
 
 const Projects = () => {
 
+  const currentSEO = SEO.find((item) => item.page === "projects");
+
   return (
     <React.Fragment>
       <Helmet>
         <title>{`Projects | ${INFO.primary.title}`}</title>
+        <meta name="description" content={currentSEO.description} />
+        <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Helmet>
       <div className="page-content">
         <Navbar active="projects" />

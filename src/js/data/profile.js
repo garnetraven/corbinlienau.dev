@@ -38,8 +38,8 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
+				"In development...",
+			logo: "",
 			linkText: "Source Code",
 			link: "https://github.com/garnetraven/",
 		},
@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"",
+			"In development...",
 			logo: "",
 			linkText: "Source Code",
 			link: "https://github.com/garnetraven/",
@@ -55,7 +55,7 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"",
+			"In development...",
 			logo: "",
 			link: "https://github.com/garnetraven/",
 			linkText: "Source code",
@@ -64,7 +64,7 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"",
+			"In development...",
 			logo: "",
 			link: "https://github.com/garnetraven/",
 			linkText: "Source Code",
@@ -73,7 +73,7 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"",
+			"In development...",
 			logo: "",
 			linkText: "Source code",
 		},

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/corbinlienau.dev/static/css/main.f949653f.css",
+    "main.js": "/corbinlienau.dev/static/js/main.866847df.js",
+    "static/js/453.6aef855f.chunk.js": "/corbinlienau.dev/static/js/453.6aef855f.chunk.js",
+    "index.html": "/corbinlienau.dev/index.html",
+    "main.f949653f.css.map": "/corbinlienau.dev/static/css/main.f949653f.css.map",
+    "main.866847df.js.map": "/corbinlienau.dev/static/js/main.866847df.js.map",
+    "453.6aef855f.chunk.js.map": "/corbinlienau.dev/static/js/453.6aef855f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f949653f.css",
+    "static/js/main.866847df.js"
+  ]
+}

@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Helmet } from "react-helmet";
 
 import Footer from "../components/footer"
 import Navbar from "../components/navbar";
@@ -13,6 +14,9 @@ const Projects = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>{`Projects | ${INFO.primary.title}`}</title>
+      </Helmet>
       <div className="page-content">
         <Navbar active="projects" />
         <div className="content-wrapper">

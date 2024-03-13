@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Helmet } from "react-helmet";
 
 import Footer from "../components/footer"
 import Navbar from "../components/navbar";
@@ -12,6 +13,9 @@ const About = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>{`About | ${INFO.primary.title}`}</title>
+      </Helmet>
       <div className="page-content">
         <Navbar active="about"/>
         <div className="content-wrapper">

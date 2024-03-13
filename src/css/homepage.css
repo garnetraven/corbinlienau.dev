@@ -64,3 +64,45 @@
 .homepage-image-wrapper img {
 	width: 100%;
 }
+
+@media (max-width: 1024px) {
+	.homepage-intro {
+		flex-direction: column;
+	}
+
+	.homepage-intro-left-side {
+		display: flex;
+		flex-direction: column; /* Changed: set direction to column */
+		align-items: flex-start;
+		width: 100%;
+		order: 2;
+	}
+
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+	}
+
+	.homepage-subtitle {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 3;
+	}
+
+	.homepage-intro-right-side {
+		width: 100%;
+		order: 1;
+	}
+
+	.homepage-image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		order: 1;
+	}
+
+	.homepage-projects {
+		flex-basis: auto;
+	}
+}

@@ -39,7 +39,7 @@ const INFO = {
 			title: "",
 			description:
 				"",
-			logo: "",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
 			linkText: "Source Code",
 			link: "https://github.com/garnetraven/",
 		},

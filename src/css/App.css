@@ -22,6 +22,19 @@
   padding-top: 15px;
 }
 
+.midtitle {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+
+  padding-top: 10px;
+  color: var(--secondary-color);
+  font-size: 24px;
+  line-height: 28px;
+  width: 70%;
+  margin-top: 20px;
+}
+
 /* Sticky Footer Technique */
 .page-content {
   min-height: 100vh;

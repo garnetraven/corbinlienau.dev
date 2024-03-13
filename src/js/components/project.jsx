@@ -6,7 +6,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "../../css/project.css";
 
 const Project = (props) => {
-	const { logo, title, description, linkText, link, starred, star } = props;
+	const { logo, title, description, linkText, link } = props;
 
 	return (
 			<div className="project">

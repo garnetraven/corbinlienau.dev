@@ -2,6 +2,7 @@ import { React } from "react";
 
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+import MainProjects from "../components/mainprojects";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -49,7 +50,10 @@ const Homepage = () => {
             <a href={`https://mail.google.com/mail/?view=cm&source=mailto&to=${INFO.primary.email}`} target="_blank"><FontAwesomeIcon icon={faMailBulk} className="homepage-social-icon"/></a>
           </div>
           <div className="homepage-projects">
-
+            <div className="midtitle homepage-midtitle">
+              Main projects
+            </div>
+            <MainProjects />
           </div>
           <div className="homepage-articles">
 

@@ -32,7 +32,7 @@ const INFO = {
 				"A Discord bot that listens to a specific channel and converts .PDF files to .JPEG files.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "Source Code",
-			link: "https://github.com/garnetraven/",
+			link: "https://github.com/garnetraven/PEGLeg-DiscordBot",
 		},
 
 		{

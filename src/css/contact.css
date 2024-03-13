@@ -1,7 +1,7 @@
 @import "./data/styles.css";
 
-a {
-	color: var(--quaternary-color);
+.contact-subtitle a {
+	color: var(--link-color);
 }
 
 .contact-title {

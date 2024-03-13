@@ -1,11 +1,10 @@
 @import "../css/data/styles.css";
 
 .project {
-	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
-	background-color: hsl(0, 0%, 95%);
+	background-color: var(--background-color);
 	position: relative;
 }
 
@@ -14,7 +13,7 @@
 }
 
 .project:hover {
-	background: hsl(0, 3%, 94%);
+	background: var(--background-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 	box-shadow: 20px;
@@ -37,19 +36,8 @@
 	width: 100%;
 }
 
-.project-star {
-	position: absolute;
-	top: 25px; /* Adjust the top position as needed */
-	right: 20px; /* Adjust the right position as needed */
-	width: 30px;
-}
-
-.project-star img {
-	width: 80%;
-}
-
 .project-title {
-	font-family: var(--secondary-font);
+	font-family: var(--primary-font);
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
@@ -60,9 +48,8 @@
 .project-
 
 .project-description {
-	color: var(--secondary-color);
+	color: var(--primary-color);
 	border: 10px ;
-	border-color: black;
 }
 
 .project-link {

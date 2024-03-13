@@ -1,16 +1,12 @@
 :root {
 	/* ------- colors ------- */
-  --primary-color: #F5F5F5;
-  --secondary-color: #019E36;
+  --primary-color: #eaeaea;
+  --secondary-color: #b5e853;
 	--tertiary-color: #185B33;
 	--quaternary-color: #A3A2A4;
 	--quinary-color: #7B7B83;
   --background-color: #151515;
-	--link-color: #00FA55;
+	--link-color: #63c0f5;
 	/* ---------------------- */
-
-	/* ------- fonts ------- */
-	--primary-font: "IBM VGA 8x16";
-	/* --------------------- */
 }
 

@@ -38,11 +38,11 @@
 	padding-right: 20px;
 	font-size: 36px;
 	transition: color 0.2s ease-in-out;
-	color: var(--quadernary-color);
+	color: var(--primary-color);
 }
 
 .homepage-social-icon:hover {
-	color: var(--primary-color);
+	color: var(--quinary-color);
 }
 
 .homepage-intro-right-side {

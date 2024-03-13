@@ -27,36 +27,36 @@ const INFO = {
   
   projects: [
 		{
-			title: "",
+			title: "PEGLeg Discord Bot",
 			description:
-				"An Chrome Extension that leverages Tensorflow to predict whether or not a site is a dropshipping front",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
-			linkText: "Source Code",
-			link: "https://github.com/garnetraven/",
-		},
-
-		{
-			title: "",
-			description:
-				"A RESTful API build to collect and distribute information in relation to apartments",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-			linkText: "Source Code",
-			link: "https://github.com/garnetraven/",
-		},
-
-		{
-			title: "",
-			description:
-				"An image recognition program which uses OpenCV and Pyautogui in order to play google minesweeper at fast speeds",
+				"A Discord bot that listens to a specific channel and converts .PDF files to .JPEG files.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "Source Code",
+			link: "https://github.com/garnetraven/",
+		},
+
+		{
+			title: "",
+			description:
+				"",
+			logo: "",
+			linkText: "Source Code",
+			link: "https://github.com/garnetraven/",
+		},
+
+		{
+			title: "",
+			description:
+				"",
+			logo: "",
 			linkText: "Source Code",
 			link: "https://github.com/garnetraven/",
     },
 		{
 			title: "",
 			description:
-				"An starlark app to display player trophy count in Clash of Clans on a Tidbyt™ device",
-			logo: "https://assets-global.website-files.com/5d490ccd3cf49e0bd0ec972e/5e2adb2e718fe0c91690bd60_Skylark%20Webclip.png",
+				"",
+			logo: "",
 			link: "https://github.com/garnetraven/",
 			linkText: "Source code",
 		},
@@ -64,8 +64,8 @@ const INFO = {
 		{
 			title: "",
 			description:
-				"A weather information program which uses multiple API's in order to collect weather data and distribute it through text messaging to consumers",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"",
+			logo: "",
 			link: "https://github.com/garnetraven/",
 			linkText: "Source Code",
 		},
@@ -74,7 +74,7 @@ const INFO = {
 			title: "",
 			description:
 				"",
-			logo: "https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_169577.png",
+			logo: "",
 			linkText: "Source code",
 		},
   ]

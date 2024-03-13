@@ -7,7 +7,6 @@ import Projects from "./js/pages/projects";
 import Articles from "./js/pages/articles";
 import Notfound from "./js/pages/404";
 
-import './css/fonts.css';
 import './css/App.css';
 
 function App() {

@@ -39,20 +39,19 @@
     top: 0;
     bottom: 0;
     width: calc((100% - 1200px) / 2);
-    background: linear-gradient(to right, var(--secondary-color), var(--background-color), rgba(255,255,255,0));
     z-index: 1;
   }
 
 .page-content:before {
     left: 0;
     border-right: none; /* Remove the right border on the left pseudo-element */
-    background: linear-gradient(to right, var(--secondary-color), var(--background-color) 25%, rgba(255,255,255,0));
+    z-index: 1;
   }
 
 .page-content:after {
     right: 0;
     border-left: none; /* Remove the left border on the right pseudo-element */
-    background: linear-gradient(to left, var(--secondary-color), var(--background-color) 25%, rgba(255,255,255,0));
+    z-index: 1;
   }
 
 

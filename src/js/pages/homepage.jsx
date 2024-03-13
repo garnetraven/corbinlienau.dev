@@ -23,11 +23,24 @@ const Homepage = () => {
       <div className="content-wrapper">
         <div className="homepage-container">
           <div className="homepage-intro">
-            <div className="title homepage-title">
-              {INFO.homepage.title}
+            <div className="homepage-intro-left-side">
+              <div className="title homepage-title">
+                {INFO.homepage.title}
+              </div>
+              <div className="subtitle homepage-subtitle">
+                {INFO.homepage.description}
+              </div>
             </div>
-            <div className="subtitle homepage-subtitle">
-              {INFO.homepage.description}
+            <div className="homepage-intro-right-side">
+              <div className="homepage-image-container">
+								<div className="homepage-image-wrapper">
+									<img
+										src="about.png"
+										alt="about"
+										className="homepage-image"
+									/>
+								</div>
+							</div>
             </div>
           </div>
           <div className="homepage-socials">

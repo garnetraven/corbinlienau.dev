@@ -18,10 +18,13 @@
 
 .about-title {
 	width: 90% !important;
+	font: var(--primary-font) !important;
+	font-size: 48px !important;
 }
 
 .about-subtitle {
 	width: 80% !important;
+	font: var(--primary-font) !important;
 }
 
 .about-right-side {
@@ -50,4 +53,8 @@
 .about-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.page-footer {
+  margin: 0 !important;
 }

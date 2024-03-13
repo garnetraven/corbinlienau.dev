@@ -13,15 +13,15 @@
 
 .social-icon {
 	font-size: 22px;
-	color: var(--primary-color);
+	color: var(--quinary-color);
 }
 
 .social-icon:hover {
-  color: var(--link-color);
+  color: var(--primary-color);
 }
 
 .social-text {
-	color: var(--secondary-color);
+	color: var(--quaternary-color);
 	padding-left: 30px;
 	margin-top: -20px;
 	font-weight: 600;
@@ -29,7 +29,7 @@
 }
 
 .social-text:hover {
-  color: var(--link-color);
+  color: var(--primary-color);
 }
 
 .email::before {

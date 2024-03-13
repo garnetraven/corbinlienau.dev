@@ -9,6 +9,7 @@ const Project = (props) => {
 	const { logo, title, description, linkText, link } = props;
 
 	return (
+		<React.Fragment>
 			<div className="project">
 				<Link to={link}>
 					<div className="project-container">
@@ -26,6 +27,7 @@ const Project = (props) => {
 					</div>
 				</Link>
 			</div>
+		</React.Fragment>
 	);
 };
 

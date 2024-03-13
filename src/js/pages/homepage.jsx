@@ -19,51 +19,53 @@ import "../../css/homepage.css";
 const Homepage = () => {
 
   return (
-    <div className="page-content">
-      <Navbar active="home"/>
-      <div className="content-wrapper">
-        <div className="homepage-container">
-          <div className="homepage-intro">
-            <div className="homepage-intro-left-side">
-              <div className="title homepage-title">
-                {INFO.homepage.title}
+    <React.Fragment>
+      <div className="page-content">
+        <Navbar active="home"/>
+        <div className="content-wrapper">
+          <div className="homepage-container">
+            <div className="homepage-intro">
+              <div className="homepage-intro-left-side">
+                <div className="title homepage-title">
+                  {INFO.homepage.title}
+                </div>
+                <div className="subtitle homepage-subtitle">
+                  {INFO.homepage.description}
+                </div>
               </div>
-              <div className="subtitle homepage-subtitle">
-                {INFO.homepage.description}
+              <div className="homepage-intro-right-side">
+                <div className="homepage-image-container">
+                  <div className="homepage-image-wrapper">
+                    <img
+                      src="about.png"
+                      alt="about"
+                      className="homepage-image"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="homepage-intro-right-side">
-              <div className="homepage-image-container">
-								<div className="homepage-image-wrapper">
-									<img
-										src="about.png"
-										alt="about"
-										className="homepage-image"
-									/>
-								</div>
-							</div>
+            <div className="homepage-socials">
+              <a href={INFO.socials.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="homepage-social-icon"/></a>
+              <a href={INFO.socials.linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedin} className="homepage-social-icon"/></a>
+              <a href={`https://mail.google.com/mail/?view=cm&source=mailto&to=${INFO.primary.email}`} target="_blank"><FontAwesomeIcon icon={faMailBulk} className="homepage-social-icon"/></a>
             </div>
-          </div>
-          <div className="homepage-socials">
-            <a href={INFO.socials.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="homepage-social-icon"/></a>
-            <a href={INFO.socials.linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedin} className="homepage-social-icon"/></a>
-            <a href={`https://mail.google.com/mail/?view=cm&source=mailto&to=${INFO.primary.email}`} target="_blank"><FontAwesomeIcon icon={faMailBulk} className="homepage-social-icon"/></a>
-          </div>
-          <div className="homepage-projects">
-            <div className="midtitle homepage-midtitle">
-              Main projects
+            <div className="homepage-projects">
+              <div className="midtitle homepage-midtitle">
+                Main projects
+              </div>
+              <MainProjects />
             </div>
-            <MainProjects />
-          </div>
-          <div className="homepage-articles">
+            <div className="homepage-articles">
 
-          </div>
-          <div className="page-footer">
-            <Footer />
+            </div>
+            <div className="page-footer">
+              <Footer />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

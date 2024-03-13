@@ -12,28 +12,30 @@ import "../../css/projects.css";
 const Projects = () => {
 
   return (
-    <div className="page-content">
-      <Navbar active="projects" />
-      <div className="content-wrapper">
-        <div className="projects-container">
-          <div className="title projects-title">
-            {INFO.projects.title}
-          </div>
-          <div className="subtitle projects-subtitle">
-            {INFO.projects.description}
-          </div>
-          <div className="homepage-projects">
-            <div className="midtitle homepage-midtitle">
-              Main projects
+    <React.Fragment>
+      <div className="page-content">
+        <Navbar active="projects" />
+        <div className="content-wrapper">
+          <div className="projects-container">
+            <div className="title projects-title">
+              {INFO.projects.title}
             </div>
-            <MainProjects />
+            <div className="subtitle projects-subtitle">
+              {INFO.projects.description}
+            </div>
+            <div className="homepage-projects">
+              <div className="midtitle homepage-midtitle">
+                Main projects
+              </div>
+              <MainProjects />
+            </div>
           </div>
-        </div>
-        <div className="page-footer">
-        <Footer />
+          <div className="page-footer">
+          <Footer />
+          </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

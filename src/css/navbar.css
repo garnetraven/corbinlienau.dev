@@ -17,8 +17,8 @@
 }
 
 .nav-background {
-	width: 380px;
-	height: 40px;
+	width: 500px;
+	height: 45px;
 	padding-left: 0%;
 	padding-right: 0%;
 	background: var(--background-color) ;
@@ -31,14 +31,14 @@
 	justify-content: space-between;
 	list-style: none;
 	align-items: center;
-	margin-left: -16px;
+	margin-left: -20px;
 	margin-right: 20px;
 	margin-top: 11px;
 }
 
 .nav-item {
 	font-weight: bold;
-	font-size: 80%;
+	font-size: 100%;
 }
 
 .nav-item.active a {

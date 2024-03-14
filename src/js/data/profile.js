@@ -7,7 +7,7 @@ const INFO = {
 
   socials: {
     github: "https://github.com/garnetraven/",
-    linkedin: "https://linkedin/in/corbinlienau/",
+    linkedin: "https://linkedin.com/in/corbinlienau/",
   },
 
   homepage: {

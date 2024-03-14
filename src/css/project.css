@@ -79,10 +79,24 @@ a {
 	
 	padding-left: 11%;
 	font-weight: 700;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 @media (max-width: 600px) {
 	.project {
 		height: 300px;
 	}
+
+	.project-description {
+    font-size: 14px; /* Adjust as needed */
+
+    /* If you want to limit the number of lines instead of characters, you can use these styles */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* Number of lines to display before adding an ellipsis */
+    -webkit-box-orient: vertical;
+  }
 }

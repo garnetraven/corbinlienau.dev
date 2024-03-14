@@ -36,47 +36,22 @@ const INFO = {
 		},
 
 		{
-			title: "",
+			title: "DevilBot",
 			description:
-				"In development...",
-			logo: "",
+				"A Rust implementation of a Slack bot that will be used by the CodeDevils Slack workspace.",
+			logo: "https://rustacean.net/assets/rustacean-orig-noshadow.png",
 			linkText: "Source Code",
-			link: "https://github.com/garnetraven/",
+			link: "https://github.com/garnetraven/devilbot",
 		},
 
 		{
-			title: "",
+			title: "CorbinLienau.dev",
 			description:
-			"In development...",
-			logo: "",
+			"Portfolio website designed and built with React.js",
+			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Source Code",
-			link: "https://github.com/garnetraven/",
+			link: "https://github.com/garnetraven/corbinlienau.dev",
     },
-		{
-			title: "",
-			description:
-			"In development...",
-			logo: "",
-			link: "https://github.com/garnetraven/",
-			linkText: "Source code",
-		},
-
-		{
-			title: "",
-			description:
-			"In development...",
-			logo: "",
-			link: "https://github.com/garnetraven/",
-			linkText: "Source Code",
-		},
-
-		{
-			title: "",
-			description:
-			"In development...",
-			logo: "",
-			linkText: "Source code",
-		},
   ]
 };
 

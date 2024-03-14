@@ -27,14 +27,13 @@ const Projects = () => {
         <div className="content-wrapper">
           <div className="projects-container">
             <div className="title projects-title">
-              {INFO.projects.title}
+              {INFO.projectspage.title}
             </div>
             <div className="subtitle projects-subtitle">
-              {INFO.projects.description}
+              {INFO.projectspage.description}
             </div>
             <div className="homepage-projects">
               <div className="midtitle homepage-midtitle">
-                Main projects
               </div>
               <MainProjects />
             </div>

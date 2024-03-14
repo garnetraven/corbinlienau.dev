@@ -71,12 +71,12 @@
 
 	.about-content-left-side {
 		flex-basis: 100%;
-		order: 1;
+		order: 2;
 	}
 
 	.about-content-right-side {
 		flex-basis: 100%;
-		order: 2;
+		order: 1;
 	}
 
 	.about-image-container {

@@ -51,10 +51,10 @@ const About = () => {
                   <Socials />
                 </div>
               </div>
-              <div className="about-socials-mobile">
-							  <Socials />
-						  </div>
             </div>
+            <div className="about-socials-mobile">
+							  <Socials />
+						    </div>
             <div className="page-footer">
               <Footer />
             </div>

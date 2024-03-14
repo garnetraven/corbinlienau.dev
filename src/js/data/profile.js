@@ -1,6 +1,6 @@
 const INFO = {
   primary: {
-    title: "Corbin's Website",
+    title: "Corbin's Portfolio",
     name: "Corbin Lienau",
     email: "corbinchristopher1@gmail.com",
   },

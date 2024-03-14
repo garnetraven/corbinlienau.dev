@@ -40,8 +40,8 @@ const About = () => {
               <div className="about-image-container">
                     <div className="about-image-wrapper">
                       <img
-                        src="about.png"
-                        alt="about"
+                        src="portfolio_logo.png"
+                        alt="logo"
                         className="about-image"
                       />
                     </div>

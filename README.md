@@ -1,4 +1,4 @@
-<h1><b>Personal Website Repository</b></h1>
+<h1><b>Personal Website</b></h1>
 
 This repository contains the code for my personal website. It is built using React, JavaScript, HTML, CSS, and Node.js. The website showcases my portfolio, projects, blog posts, and more.
 

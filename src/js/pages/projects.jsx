@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import Footer from "../components/footer"
 import Navbar from "../components/navbar";
 import MainProjects from "../components/mainprojects";
-import SideProjects from "../components/sideprojects";
 
 import INFO from "../data/profile";
 import SEO from "../data/seo";

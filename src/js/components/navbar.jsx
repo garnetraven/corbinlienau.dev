@@ -22,9 +22,6 @@ const navbar = (props) => {
 										<li className={active === "projects" ? "nav-item active" : "nav-item"}>
 												<Link to="/projects">Projects</Link>
 										</li>
-										{ /*<li className={active === "articles" ? "nav-item active" : "nav-item"}>
-												<Link to="/articles">Articles</Link>
-										</li> Add later on*/}
 										<li className={active === "contact" ? "nav-item active" : "nav-item"}>
 												<Link to="/contact">Contact</Link>
 										</li>

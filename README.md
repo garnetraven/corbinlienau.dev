@@ -3,6 +3,7 @@
 This repository contains the code for my personal website. It is built using React, JavaScript, HTML, CSS, and Node.js. The website showcases my portfolio, projects, blog posts, and more.
 
 <h2><b>Features</b></h2>
+
 * Portfolio: Display of my projects, skills, and experience.
 * Blog: Platform for sharing insights, tutorials, and experiences.
 * Responsive Design: Ensures a seamless experience across various devices and screen sizes.

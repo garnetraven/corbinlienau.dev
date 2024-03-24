@@ -16,5 +16,5 @@ This repository contains the code for my personal website. It is built using Rea
 * JavaScript (JS): Programming language for interactivity and functionality.
 * HTML: Markup language for structuring web pages.
 * CSS: Styling language for enhancing the presentation of web pages.
-* Node.js: JavaScript runtime for building server-side applications.
+* Node.js: JavaScript runtime for building development server-side applications.
 

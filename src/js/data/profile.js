@@ -20,6 +20,12 @@ const INFO = {
     description:"As a software engineer currently enrolled in the Software Engineering program at Arizona State University, my drive stems from crafting practical solutions with my code. While I have a particular affinity for backend systems and high-performance hardware solutions, I'm eager to embrace any opportunity that comes my way. My enthusiasm for software engineering is rooted in the ability to translate my conceptualizations into tangible results through coding. My aspiration is to delve deeper into this field, leveraging my skills to enhance people's lives through innovative software solutions.",
   },
 
+  articles: {
+		title: "Articles",
+		description:
+			"I'm passionate about pushing myself to learn more while gaining experience by working with new people and experimenting with new projects.",
+	},
+
   projectspage: {
     title: "Personal Projects",
     description: "I've engaged in diverse projects to enhance my skills as a developer and delve into the technologies that pique my interest. Through tackling projects involving unfamiliar technologies, I've discovered that stepping out of my comfort zone contributes significantly to my understanding and mastery of those technologies over time.    ",

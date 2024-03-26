@@ -1,6 +1,44 @@
 import React from "react";
 
-function mediaserver() {
+function comingsoon() {
+	return {
+		codeLink: '',
+		coverImage: "https://cdn-icons-png.flaticon.com/128/3967/3967195.png",
+		date: "February 2024",
+		title: "Coming Soon...",
+		description:
+			"More articles coming soon!",
+			style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			
+			.randimage {
+				width: 50%;
+				align-self: center;
+			}
+			`,
+			keywords: [
+			],
+			body: (
+				<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph"><p></p></div>
+					<h1>Coming Soon...</h1>
+					<img
+							src="https://cdn-icons-png.flaticon.com/128/3967/3967195.png"
+							alt="group"
+							className="randImage"
+						/>
+				</div>
+				</React.Fragment>
+			),
+		};
+}
+
+{/*function mediaserver() {
 	return {
 		codeLink: '',
 		coverImage: "https://cdn-icons-png.flaticon.com/128/919/919853.png",
@@ -87,9 +125,9 @@ function mediaserver2() {
 			</div>
 			</React.Fragment>
 		),
-	};
-}
+	}; 
+} */}
 	
-const myArticles = [mediaserver, mediaserver2];
+const myArticles = [comingsoon];
 
 export default myArticles;

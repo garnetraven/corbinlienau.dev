@@ -33,6 +33,7 @@ function mediaserver() {
 						className="randImage"
 					/>
 					<p>Hello!</p>
+					<h1>Hello!</h1>
 				<img
 						src=""
 						alt="group"

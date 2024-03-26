@@ -17,14 +17,7 @@ const ReadArticle = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
 
-	const article = myArticles.find(a => a.slug === slug);
-  console.log(article);
-
-  if (!article) {
-    console.log("Article not found");
-    navigate("/404");
-    return;
-  }
+	const article = myArticles[slug - 1];
 
   ArticleStyle = styled.div`
 		${article().style}

@@ -24,7 +24,7 @@
 }
 
 .article-right-side:hover {
-	background: black;
+	background: hsl((--background-color));
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -77,9 +77,8 @@
 }
 
 .pictureBorder {
-    width: 100%; /* Adjust width as needed */
+    width: 70%; /* Adjust width as needed */
     height: 60%; /* Adjust height as needed */
-    border: 1px solid var(--quinary-color); /* Border to create the outline */
     border-radius: 9%;
     overflow: hidden; /* Ensure the border completely covers the image */
 }

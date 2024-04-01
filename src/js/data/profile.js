@@ -33,6 +33,15 @@ const INFO = {
   
   projects: [
 		{
+			title: "Travel Chain",
+			description:
+			"A blockchain-based personal photo storage and map tracking web dApp.",
+			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+			linkText: "Source Code",
+			link: "https://github.com/garnetraven/TravelChain",
+    },
+
+		{
 			title: "PEGLeg Discord Bot",
 			description:
 				"A Discord bot that listens to a specific channel and converts .PDF files to .JPEG files.",

@@ -42,18 +42,18 @@ const INFO = {
 		},
 
 		{
-			title: "DevilBot",
+			title: "Travel Chain",
 			description:
-				"A Rust implementation of a Slack bot that will be used by the CodeDevils Slack workspace.",
-			logo: "https://rustacean.net/assets/rustacean-orig-noshadow.png",
+				"A decentralized web app (dApp) that uses solidity smart contracts to allow users to store and view photos on blockchain technology.",
+			logo: "https://raw.githubusercontent.com/ethereum/solidity/ae9bcabd954c20e9610a3f3fe64e24cbcf153375/docs/logo.svg",
 			linkText: "Source Code",
-			link: "https://github.com/garnetraven/devilbot",
+			link: "https://github.com/garnetraven/travelchain",
 		},
 
 		{
 			title: "CorbinLienau.dev",
 			description:
-			"Portfolio website designed and built with React.js",
+			"Personal portfolio and blog website designed and built with React.js",
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Source Code",
 			link: "https://github.com/garnetraven/corbinlienau.dev",

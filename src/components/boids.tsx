@@ -13,12 +13,12 @@ const BoidsSimulation: React.FC<{ width?: number; height?: number }> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const boidsRef = useRef<Boid[]>([]);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
+    
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
@@ -59,7 +59,6 @@ const BoidsSimulation: React.FC<{ width?: number; height?: number }> = ({
 
       for (const other of boids) {
         if (other === boid) continue;
-
         const dist = distance(boid, other);
 
         // Alignment
@@ -126,19 +125,16 @@ const BoidsSimulation: React.FC<{ width?: number; height?: number }> = ({
       ctx.save();
       ctx.translate(boid.x, boid.y);
       ctx.rotate(angle);
-
       ctx.beginPath();
       ctx.moveTo(size, 0);
       ctx.lineTo(-size, size / 2);
       ctx.lineTo(-size, -size / 2);
       ctx.closePath();
-
       ctx.fillStyle = '#60a5fa';
       ctx.fill();
       ctx.strokeStyle = '#93c5fd';
       ctx.lineWidth = 1;
       ctx.stroke();
-
       ctx.restore();
     };
 
